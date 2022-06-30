@@ -112,8 +112,15 @@ def merge_sort_helpers(l,r)
     new_arr #+ temp_left + temp_left
 end
 
-p merge_sort([6,8,12,0,3,3,7])
-p merge_sort([6,8,12,4,3,3,7])
+# p merge_sort([6,8,12,0,3,3,7])
+# p merge_sort([6,8,12,4,3,3,7])
+
+def subsets(array)
+    return [] if array.empty?
+
+    new_arr = []
+    
+end
 
 #p merge_sort_helpers(5)
 # p bsearch([1, 2, 3], 1) # => 0
